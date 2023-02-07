@@ -47,8 +47,8 @@
     extern void touch(const char *fileName);
 
     // concatenate files and print on the standard output
-    // *path = file to print content off
-    extern void cat(char *path);
+    // *file = file to print content off
+    extern void cat(char *file);
 
     // prints system information
     // infoType = type of information of the OS to display
