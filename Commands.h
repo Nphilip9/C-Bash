@@ -8,6 +8,8 @@
     #define UNAME_ALL 1         // All = prints all posible information of the OS    
     #define UNAME_NODENAME 2    // Nodename = prints the network hostname
 
+    extern char *currentDirectorie;
+
     // prints all supported commands
     extern void help();
 

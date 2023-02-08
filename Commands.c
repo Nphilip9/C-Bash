@@ -23,3 +23,9 @@ void help() {
     printf("tree *[PATH] -> List content of directorie and subdirectories\n");
     printf("kill [PID] -> Kill process with the ID\n");
 }
+
+void clear() {
+    printf("\e[1;1H\e[2J");
+}
+
+void ls(const char *path) {}

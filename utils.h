@@ -8,4 +8,6 @@
     // Returns the orginally string when the delimeter is not found
     extern char *splitString(char *str, const char *delimeter);
 
+    extern char *getCurrentDirectory();
+
 #endif
